@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<businessDocument xmlns="http://www.axway.com/mappingServices/x12BusinessDocument" id="6b49ce53-d94b-480b-be10-feb2081c759c" encodingBD="iso8859">
+   <signature appVersion="3.1.2" lastUpdatedOn="28/09/2016 14:56:30 +0300"/>
+   <tableName>~/Extended Objects/prj2/t1.tbl</tableName>
+   <childElements>
+      <childElement factoryType="EdiHeader" order="1" name="HEADER" hash="-763897185">
+         <cardinality maximum="1"/>
+         <childElements>
+            <childElement factoryType="EdiSegment" order="2" label="INTERCHANGE HEADER" name="ISA" hash="1665549459">
+               <cardinality maximum="1"/>
+               <childElements>
+                  <childElement factoryType="EdiSimpleElement" hash="-83456972" typeId="14" definition="2,2" allowDistortion="true" label="Authorization Information Qualifier" order="3" paddingPosElement="1" encodingElement="iso8859" name="e01_I01">
+                     <cardinality minimum="1" maximum="1"/>
+                  </childElement>
+                  <childElement factoryType="EdiSimpleElement" hash="1195938274" typeId="11" definition="10,10" allowDistortion="true" label="Authorization Information" order="4" paddingPosElement="1" encodingElement="iso8859" name="e02_I02">
+                     <cardinality minimum="1" maximum="1"/>
+                  </childElement>
+                  <childElement factoryType="EdiSimpleElement" hash="444986798" typeId="14" definition="2,2" allowDistortion="true" label="Security Information Qualifier" order="5" paddingPosElement="1" encodingElement="iso8859" name="e03_I03">
+                     <cardinality minimum="1" maximum="1"/>
+                  </childElement>
+                  <childElement factoryType="EdiSimpleElement" hash="-995909258" typeId="11" definition="10,10" allowDistortion="true" label="Security Information" order="6" paddingPosElement="1" encodingElement="iso8859" name="e04_I04">
+                     <cardinality minimum="1" maximum="1"/>
+                  </childElement>
+                  <childElement factoryType="EdiSimpleElement" hash="922061871" typeId="14" definition="2,2" allowDistortion="true" label="Interchange ID Qualifier, sender" order="7" paddingPosElement="1" encodingElement="iso8859" name="e05_I05">
+                     <cardinality minimum="1" maximum="1"/>
+                  </childElement>
+                  <childElement factoryType="EdiSimpleElement" hash="673408202" typeId="11" definition="15,15" allowDistortion="true" label="Interchange Sender ID" order="8" paddingPosElement="1" encodingElement="iso8859" name="e06_I06">
+                     <cardinality minimum="1" maximum="1"/>
+                  </childElement>
+                  <childElement factoryType="EdiSimpleElement" hash="280870826" typeId="14" definition="2,2" allowDistortion="true" label="Interchange ID Qualifier, receiver" order="9" paddingPosElement="1" encodingElement="iso8859" name="e07_I05">
+                     <cardinality minimum="1" maximum="1"/>
+                  </childElement>
+                  <childElement factoryType="EdiSimpleElement" hash="-47941341" typeId="11" definition="15,15" allowDistortion="true" label="Interchange Receiver ID" order="10" paddingPosElement="1" encodingElement="iso8859" name="e08_I07">
+                     <cardinality minimum="1" maximum="1"/>
+                  </childElement>
+                  <childElement factoryType="EdiSimpleElement" hash="1345696609" typeId="31" definition="6" allowDistortion="true" label="Interchange Date" order="11" pattern="YYMMDD" encodingElement="iso8859" name="e09_I08">
+                     <cardinality minimum="1" maximum="1"/>
+                  </childElement>
+                  <childElement factoryType="EdiSimpleElement" hash="-244101659" typeId="32" definition="4" allowDistortion="true" label="Interchange Time" order="12" pattern="hhmm" encodingElement="iso8859" name="e10_I09">
+                     <cardinality minimum="1" maximum="1"/>
+                  </childElement>
+                  <childElement factoryType="EdiSimpleElement" hash="1343343216" typeId="14" definition="1,1" allowDistortion="true" label="Interchange Control Standards Identifier" order="13" paddingPosElement="1" encodingElement="iso8859" name="e11_I10">
+                     <cardinality minimum="1" maximum="1"/>
+                  </childElement>
+                  <childElement factoryType="EdiSimpleElement" hash="1654638192" typeId="14" definition="5,5" allowDistortion="true" label="Interchange Control Version Number" order="14" paddingPosElement="1" encodingElement="iso8859" name="e12_I11">
+                     <cardinality minimum="1" maximum="1"/>
+                  </childElement>
+                  <childElement factoryType="EdiSimpleElement" signMinusPos="1" hash="-1582850045" signPlus="+" typeId="60" definition="9,9" allowDistortion="true" label="Interchange Control Number" signMinus="-" order="15" encodingElement="iso8859" name="e13_I12">
+                     <cardinality minimum="1" maximum="1"/>
+                  </childElement>
+                  <childElement factoryType="EdiSimpleElement" hash="1536689745" typeId="14" definition="1,1" allowDistortion="true" label="Acknowledgment Requested" order="16" paddingPosElement="1" encodingElement="iso8859" name="e14_I13">
+                     <cardinality minimum="1" maximum="1"/>
+                  </childElement>
+                  <childElement factoryType="EdiSimpleElement" hash="1791354184" typeId="14" definition="1,1" allowDistortion="true" label="Usage Indicator" order="17" paddingPosElement="1" encodingElement="iso8859" name="e15_I14">
+                     <cardinality minimum="1" maximum="1"/>
+                  </childElement>
+                  <childElement factoryType="EdiSimpleElement" hash="-1455416393" typeId="11" definition="1,1" allowDistortion="true" label="Component Element Separator" order="18" paddingPosElement="1" encodingElement="iso8859" name="e16_I15">
+                     <cardinality minimum="1" maximum="1"/>
+                  </childElement>
+               </childElements>
+            </childElement>
+            <childElement factoryType="EdiSegment" order="19" label="GROUP HEADER" name="GS" hash="-2059548053">
+               <cardinality maximum="1"/>
+               <childElements>
+                  <childElement factoryType="EdiSimpleElement" hash="1462262609" typeId="14" definition="2,2" allowDistortion="true" label="Functional Identifier Code" order="20" paddingPosElement="1" encodingElement="iso8859" name="e01_0479">
+                     <cardinality minimum="1" maximum="1"/>
+                  </childElement>
+                  <childElement factoryType="EdiSimpleElement" hash="149184412" typeId="11" definition="2,15" allowDistortion="true" label="Application Sender&apos;s Code" order="21" paddingPosElement="1" encodingElement="iso8859" name="e02_0142">
+                     <cardinality minimum="1" maximum="1"/>
+                  </childElement>
+                  <childElement factoryType="EdiSimpleElement" hash="-695569498" typeId="11" definition="2,15" allowDistortion="true" label="Application Receiver&apos;s Code" order="22" paddingPosElement="1" encodingElement="iso8859" name="e03_0124">
+                     <cardinality minimum="1" maximum="1"/>
+                  </childElement>
+                  <childElement factoryType="EdiSimpleElement" hash="-1079533295" typeId="31" definition="6" allowDistortion="true" label="Date" order="23" pattern="YYMMDD" encodingElement="iso8859" name="e04_0027">
+                     <cardinality minimum="1" maximum="1"/>
+                  </childElement>
+                  <childElement factoryType="EdiSimpleElement" hash="506498080" typeId="34" definition="4,8" allowDistortion="true" label="Time" order="24" pattern="hhmmssqq" encodingElement="iso8859" name="e05_0030">
+                     <cardinality minimum="1" maximum="1"/>
+                  </childElement>
+                  <childElement factoryType="EdiSimpleElement" signMinusPos="1" hash="-1284422913" signPlus="+" typeId="60" definition="1,9" allowDistortion="true" label="Group Control Number" decimalCharElement="." signMinus="-" order="25" encodingElement="iso8859" name="e06_0028">
+                     <cardinality minimum="1" maximum="1"/>
+                  </childElement>
+                  <childElement factoryType="EdiSimpleElement" hash="-788777074" typeId="14" definition="1,2" allowDistortion="true" label="Responsible Agency Code" order="26" paddingPosElement="1" encodingElement="iso8859" name="e07_0455">
+                     <cardinality minimum="1" maximum="1"/>
+                  </childElement>
+                  <childElement factoryType="EdiSimpleElement" hash="-837879975" typeId="11" definition="1,12" allowDistortion="true" label="Version/Release/Industry Identifier Code" order="27" paddingPosElement="1" encodingElement="iso8859" name="e08_0480">
+                     <cardinality minimum="1" maximum="1"/>
+                  </childElement>
+               </childElements>
+            </childElement>
+         </childElements>
+      </childElement>
+      <childElement factoryType="EdiMessage" order="28" name="TRANSACTION" hash="-323605599">
+         <cardinality minimum="1" maximum="1"/>
+         <childElements>
+            <childElement factoryType="EdiSegment" order="29" label="TRANSACTION SET HEADER" name="ST" hash="-1151081397">
+               <cardinality minimum="1" maximum="1"/>
+               <childElements>
+                  <childElement factoryType="EdiSimpleElement" hash="-1472349844" typeId="11" definition="4,9" allowDistortion="true" label="Transaction Set Control Number" order="30" paddingPosElement="1" encodingElement="iso8859" name="329">
+                     <cardinality minimum="1" maximum="1"/>
+                  </childElement>
+                  <childElement factoryType="EdiSimpleElement" hash="-106336374" typeId="14" definition="3,3" allowDistortion="true" label="Transaction Set Identifier Code" order="31" paddingPosElement="1" encodingElement="iso8859" name="143">
+                     <cardinality minimum="1" maximum="1"/>
+                  </childElement>
+               </childElements>
+            </childElement>
+         </childElements>
+      </childElement>
+   </childElements>
+</businessDocument>
