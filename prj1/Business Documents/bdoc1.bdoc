@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <businessDocument xmlns="http://www.axway.com/mappingServices/hl7BusinessDocument" id="4e54250d-1bab-40e2-9ba0-9528139c75c5" encodingBD="iso8859">
-   <signature appVersion="3.1.2" lastUpdatedOn="28/09/2016 14:49:55 +0300"/>
+   <signature appVersion="3.1.2" lastUpdatedOn="28/09/2016 16:40:13 +0300"/>
    <childElements>
       <childElement factoryType="Hl7Field" order="1" name="MSH" hash="-1467629400">
          <cardinality minimum="1" maximum="1"/>
@@ -8,7 +8,7 @@
             <childElement factoryType="Hl7Leaf" hash="-1782529229" typeId="10" definition="3" paddingCharElement=" " allowDistortion="true" label="Segment Identifier" nullable="true" keepDecimalSeparator="true" defaultValue="MSH" order="2" encodingElement="iso8859" name="ID">
                <cardinality minimum="1" maximum="1"/>
             </childElement>
-            <childElement factoryType="Hl7Leaf" hash="-1686320040" typeId="10" definition="1" paddingCharElement=" " allowDistortion="true" label="Field Separator" nullable="true" keepDecimalSeparator="true" defaultValue="|" order="3" encodingElement="iso8859" name="FieldSeparator">
+            <childElement factoryType="Hl7Leaf" hash="-1686320040" typeId="10" definition="1" paddingCharElement=" " allowDistortion="true" label="Field Separator" nullable="true" keepDecimalSeparator="true" defaultValue="^" order="3" encodingElement="iso8859" name="FieldSeparator">
                <cardinality minimum="1" maximum="1"/>
             </childElement>
             <childElement factoryType="Hl7Leaf" hash="-1407362423" typeId="10" definition="1" paddingCharElement=" " allowDistortion="true" label="Component Separator" nullable="true" keepDecimalSeparator="true" defaultValue="^" order="4" encodingElement="iso8859" name="ComponentSeparator">
