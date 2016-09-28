@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<table xmlns="http://www.axway.com/mappingServices/table" beginDate="01/01/1900 11:34:52 +0134" endDate="31/12/2199 12:00:00 +0200" sendContentsToServer="true" id="3e903675-3fa8-41a7-9082-4618ae3fa792">
+   <signature appVersion="3.1.2" lastUpdatedOn="28/09/2016 14:56:20 +0300"/>
+   <columns>
+      <column dmlClass="S" name="Key" label="Key" definition="255" isKey="true"/>
+      <column dmlClass="S" name="Value" label="Value" definition="255"/>
+      <column dmlClass="D" name="StartDate" label="StartDate" definition="255" id="1"/>
+      <column dmlClass="D" name="EndDate" label="EndDate" definition="255" id="2"/>
+   </columns>
+</table>
