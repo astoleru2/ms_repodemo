@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <businessDocument xmlns="http://www.axway.com/mappingServices/hl7BusinessDocument" id="4e54250d-1bab-40e2-9ba0-9528139c75c5" encodingBD="iso8859">
-   <signature appVersion="3.1.2" lastUpdatedOn="28/09/2016 14:44:19 +0300"/>
+   <signature appVersion="3.1.2" lastUpdatedOn="28/09/2016 14:49:55 +0300"/>
    <childElements>
       <childElement factoryType="Hl7Field" order="1" name="MSH" hash="-1467629400">
          <cardinality minimum="1" maximum="1"/>
@@ -118,7 +118,7 @@
                   </childElement>
                </childElements>
             </childElement>
-            <childElement factoryType="Hl7FieldLeaf" hash="-610804488" typeId="10" definition="8" paddingCharElement=" " allowDistortion="true" label="Version ID" nullable="true" keepDecimalSeparator="true" order="35" encodingElement="iso8859" name="VersionID">
+            <childElement factoryType="Hl7FieldLeaf" hash="-610804488" typeId="10" definition="8" paddingCharElement=" " allowDistortion="true" label="Version ID" nullable="true" keepDecimalSeparator="true" order="35" encodingElement="iso8859" name="VersionID2">
                <cardinality maximum="1"/>
             </childElement>
             <childElement factoryType="Hl7FieldLeaf" hash="-266205489" signPlus="+" typeId="60" definition="15" paddingCharElement=" " allowDistortion="true" label="Sequence Number" signMinus="-" nullable="true" keepDecimalSeparator="true" order="36" encodingElement="iso8859" name="SequenceNumber">
